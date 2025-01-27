@@ -1,0 +1,6 @@
+workflows:
+  test-master:
+    name: Playwright Test Master
+    scripts:
+        - npm install
+        - npm playwright test
